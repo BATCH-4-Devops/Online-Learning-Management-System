@@ -17,7 +17,7 @@ Authentication Service is part LearnEdu It is built around [AWS Cognito](https:/
 * Actor: User without Email ID
 * Pre Condition:
 
-1. User should have a working email-id which is not already registered with Shopping website.
+1. User should have a working email-id which is not already registered with Learning website.
 
 * Input:
 
@@ -41,17 +41,17 @@ Authentication Service is part LearnEdu It is built around [AWS Cognito](https:/
 * Exceptions:
 
 1. Registration page re-appears with appropriate message if user enters invalid name or invalid email-ID or invalid password.
-2. Registration page re-appears with appropriate message if the email-ID is already registered with Shopping website.
+2. Registration page re-appears with appropriate message if the email-ID is already registered with Learning website.
 3. Registration page shows "resend" button, in case the activation code is not entered in the first 5 minutes after the mail has been sent.
 4. Registration page will not show any special message if the email-ID is not reachable. It just prompts for activation code, as usual.
 
-### G0001-002: Login with Inactive Glarimy-ID ###
+### G0001-002: Login with Inactive LearnEdu-ID ###
 
 * Actor: User with Inactive Email-ID
 
 * Pre Condition:
 
-1. User should have a registered Email ID and password with Shopping website.
+1. User should have a registered Email ID and password with Learning website.
 
 * Input:
 
@@ -112,7 +112,7 @@ Authentication Service is part LearnEdu It is built around [AWS Cognito](https:/
  
 * Pre Condition:
 
-1. User should have an active Email ID with Shopping website.
+1. User should have an active Email ID with Learning website.
 
 * Input:
 
@@ -143,7 +143,7 @@ Authentication Service is part LearnEdu It is built around [AWS Cognito](https:/
 
 * Pre Condition:
 
-1. User should have logged into Shopping website
+1. User should have logged into Learning website
 
 * Input:
 
@@ -220,7 +220,7 @@ Authentication Service is part LearnEdu It is built around [AWS Cognito](https:/
 
 * Post Condition:
 
-1. User should not be able to login to Glarimy Cloud with activating the ID again.
+1. User should not be able to login to LearnEdu with activating the ID again.
 2. Back button or bookmarks fail to open any of the login-protected pages of the web app
 
 * Exceptions:
