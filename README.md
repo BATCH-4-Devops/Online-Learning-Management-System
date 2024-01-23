@@ -9,7 +9,8 @@ Authentication Service is part of LearnEdu. It is built around [AWS Cognito](htt
 ## Use Cases ##
 
 ### Use Case Diagram ###
-![image](https://github.com/BATCH-4-Devops/Online-Learning-Management-System/assets/146949031/ac52d747-16f6-4820-b0d0-ceb400ab291f)
+![image](https://github.com/BATCH-4-Devops/Online-Learning-Management-System/assets/146949031/64b44236-3154-469e-90b6-9b12714b3617)
+
 
 
 ## User Stories ##
@@ -231,7 +232,8 @@ Authentication Service is part of LearnEdu. It is built around [AWS Cognito](htt
 ## Workflow ##
 
 ### Workflow Diagram ###
-![image](https://github.com/BATCH-4-Devops/Online-Learning-Management-System/assets/146949031/33512025-8a1d-452e-8599-cdbd87137892)
+![image](https://github.com/BATCH-4-Devops/Online-Learning-Management-System/assets/146949031/be891640-e969-435c-8d8f-1e057b40c54b)
+
 
 
 ## Development ##
