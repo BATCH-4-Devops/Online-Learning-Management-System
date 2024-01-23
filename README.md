@@ -4,12 +4,13 @@ Abstract:The Online Learning Management System is an essential tool for managing
 # Authentication Service #
 Project Code: G0001
 
-Authentication Service is part of Glarimy Cloud Infrastructure. It is built around [AWS Cognito](https://aws.amazon.com/cognito/) User Pools and Identify Pools.
+Authentication Service is part of LearnEdu. It is built around [AWS Cognito](https://aws.amazon.com/cognito/) User Pools and Identify Pools.
 
 ## Use Cases ##
 
 ### Use Case Diagram ###
-![usecase_LMS.drawio](https://github.com/BATCH-4-Devops/Online-Learning-Management-System/blob/d5ede888ec62f91a712a2e2cf66925787c70e25b/usecase_LMS.drawio)
+![image](https://github.com/BATCH-4-Devops/Online-Learning-Management-System/assets/146949031/ac52d747-16f6-4820-b0d0-ceb400ab291f)
+
 
 ## User Stories ##
 ### G0001-001: Register ###
@@ -17,7 +18,7 @@ Authentication Service is part of Glarimy Cloud Infrastructure. It is built arou
 * Actor: User without Email ID
 * Pre Condition:
 
-1. User should have a working email-id which is not already registered with Shopping website.
+1. User should have a working email-id which is not already registered with Learning website.
 
 * Input:
 
@@ -41,17 +42,17 @@ Authentication Service is part of Glarimy Cloud Infrastructure. It is built arou
 * Exceptions:
 
 1. Registration page re-appears with appropriate message if user enters invalid name or invalid email-ID or invalid password.
-2. Registration page re-appears with appropriate message if the email-ID is already registered with Shopping website.
+2. Registration page re-appears with appropriate message if the email-ID is already registered with Learning website.
 3. Registration page shows "resend" button, in case the activation code is not entered in the first 5 minutes after the mail has been sent.
 4. Registration page will not show any special message if the email-ID is not reachable. It just prompts for activation code, as usual.
 
-### G0001-002: Login with Inactive Glarimy-ID ###
+### G0001-002: Login with Inactive LearnEdu-ID ###
 
 * Actor: User with Inactive Email-ID
 
 * Pre Condition:
 
-1. User should have a registered Email ID and password with Shopping website.
+1. User should have a registered Email ID and password with Learning website.
 
 * Input:
 
@@ -112,7 +113,7 @@ Authentication Service is part of Glarimy Cloud Infrastructure. It is built arou
  
 * Pre Condition:
 
-1. User should have an active Email ID with Shopping website.
+1. User should have an active Email ID with Learning website.
 
 * Input:
 
@@ -143,7 +144,7 @@ Authentication Service is part of Glarimy Cloud Infrastructure. It is built arou
 
 * Pre Condition:
 
-1. User should have logged into Shopping website
+1. User should have logged into Learning website
 
 * Input:
 
@@ -220,7 +221,7 @@ Authentication Service is part of Glarimy Cloud Infrastructure. It is built arou
 
 * Post Condition:
 
-1. User should not be able to login to Glarimy Cloud with activating the ID again.
+1. User should not be able to login to LearnEdu with activating the ID again.
 2. Back button or bookmarks fail to open any of the login-protected pages of the web app
 
 * Exceptions:
@@ -230,7 +231,8 @@ Authentication Service is part of Glarimy Cloud Infrastructure. It is built arou
 ## Workflow ##
 
 ### Workflow Diagram ###
-![Workflow.png](https://bitbucket.org/repo/qEdkgrG/images/580717476-Workflow.png)
+![image](https://github.com/BATCH-4-Devops/Online-Learning-Management-System/assets/146949031/33512025-8a1d-452e-8599-cdbd87137892)
+
 
 ## Development ##
 
